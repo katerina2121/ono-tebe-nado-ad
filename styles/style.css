@@ -70,6 +70,7 @@
     background-position: center;
     background-size: auto 100%;
     position: relative;
+    text-transform: uppercase;
 }
 
 .overlay {
@@ -98,7 +99,6 @@
     font-weight: 700;
     letter-spacing: 0.3em;
     margin-right: -0.3em; /* Компенсируем letter-spacing после последнего элемента */
-    text-transform: uppercase;
 }
 
 .text-center {
@@ -115,7 +115,6 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
@@ -127,7 +126,6 @@
     width: 256px;
     height: 51px;
     color: inherit; /* Наследует цвет от родителя */
-    font-family: inherit; /* Наследует шрифт */
     font-size: inherit; /* Наследует размер шрифта */
     text-transform: inherit; /* Наследует text-transform */
     background-color: transparent;
